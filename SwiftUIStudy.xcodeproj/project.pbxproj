@@ -11,6 +11,8 @@
 		6910EE7F2534280A00F7BDCC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6910EE7E2534280A00F7BDCC /* ContentView.swift */; };
 		6910EE812534281100F7BDCC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6910EE802534281100F7BDCC /* Assets.xcassets */; };
 		6910EE842534281100F7BDCC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6910EE832534281100F7BDCC /* Preview Assets.xcassets */; };
+		6910EE8D2534283800F7BDCC /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6910EE8C2534283800F7BDCC /* ListView.swift */; };
+		6910EE912534298400F7BDCC /* RestaurantView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6910EE902534298400F7BDCC /* RestaurantView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +22,8 @@
 		6910EE802534281100F7BDCC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6910EE832534281100F7BDCC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		6910EE852534281100F7BDCC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6910EE8C2534283800F7BDCC /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
+		6910EE902534298400F7BDCC /* RestaurantView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,8 @@
 			children = (
 				6910EE7C2534280A00F7BDCC /* SwiftUIStudyApp.swift */,
 				6910EE7E2534280A00F7BDCC /* ContentView.swift */,
+				6910EE902534298400F7BDCC /* RestaurantView.swift */,
+				6910EE8C2534283800F7BDCC /* ListView.swift */,
 				6910EE802534281100F7BDCC /* Assets.xcassets */,
 				6910EE852534281100F7BDCC /* Info.plist */,
 				6910EE822534281100F7BDCC /* Preview Content */,
@@ -140,6 +146,8 @@
 			files = (
 				6910EE7F2534280A00F7BDCC /* ContentView.swift in Sources */,
 				6910EE7D2534280A00F7BDCC /* SwiftUIStudyApp.swift in Sources */,
+				6910EE8D2534283800F7BDCC /* ListView.swift in Sources */,
+				6910EE912534298400F7BDCC /* RestaurantView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
