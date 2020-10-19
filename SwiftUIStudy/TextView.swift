@@ -8,8 +8,16 @@
 import SwiftUI
 
 struct TextView: View {
+    
+    @State var name = ""
+
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+
+        Form {
+            TextField("", text: $name)
+            Text("\(name)さん")
+            
+        }
     }
 }
 

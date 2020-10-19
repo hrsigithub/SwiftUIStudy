@@ -14,16 +14,20 @@ struct RestaurantView: View {
     var title: String
     var type: String
     var note: String
+    var rating = 3
     
     var body: some View {
         HStack() { // 行ね
             VStack() {
                 HStack(spacing:0) {
-                    Image(systemName: "star.fill")
-                    Image(systemName: "star.fill")
-                    Image(systemName: "star.fill")
-                    Image(systemName: "star")
-                    Image(systemName: "star")
+                    ForEach(1...rating, id:\.self) { _ in
+                        Image(systemName: "star.fill")
+
+                    }
+                    ForEach(rating..<5, id:\.self) { _ in
+                        Image(systemName: "star")
+
+                    }
                 }.foregroundColor(.yellow)
                 Text(type)
             }
@@ -42,7 +46,7 @@ struct RestaurantView_Previews: PreviewProvider {
         RestaurantView(
             title: "jun",
             type: "タイプ",
-            note: "うんこ"
-        )
+            note: "ABC"
+        ).previewLayout(.fixed(width:400, height:100))
     }
 }
