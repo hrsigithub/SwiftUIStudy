@@ -14,9 +14,6 @@
 		6910EE8D2534283800F7BDCC /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6910EE8C2534283800F7BDCC /* ListView.swift */; };
 		6910EE912534298400F7BDCC /* RestaurantView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6910EE902534298400F7BDCC /* RestaurantView.swift */; };
 		6987B501253525D900F579F0 /* TextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6987B500253525D900F579F0 /* TextView.swift */; };
-		69BB147D253D44AD00D1F847 /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69BB147C253D44AD00D1F847 /* CircleImage.swift */; };
-		69BB1480253D44F600D1F847 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69BB147F253D44F600D1F847 /* MapView.swift */; };
-		69BB1487253D46BE00D1F847 /* ContentViewLandmarks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69BB1486253D46BE00D1F847 /* ContentViewLandmarks.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,9 +26,6 @@
 		6910EE8C2534283800F7BDCC /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
 		6910EE902534298400F7BDCC /* RestaurantView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantView.swift; sourceTree = "<group>"; };
 		6987B500253525D900F579F0 /* TextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextView.swift; sourceTree = "<group>"; };
-		69BB147C253D44AD00D1F847 /* CircleImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CircleImage.swift; path = ../../../Landmarks/Landmarks/CircleImage.swift; sourceTree = "<group>"; };
-		69BB147F253D44F600D1F847 /* MapView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MapView.swift; path = ../../../Landmarks/Landmarks/MapView.swift; sourceTree = "<group>"; };
-		69BB1486253D46BE00D1F847 /* ContentViewLandmarks.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ContentViewLandmarks.swift; path = ../../../Landmarks/Landmarks/ContentViewLandmarks.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,7 +58,6 @@
 		6910EE7B2534280A00F7BDCC /* SwiftUIStudy */ = {
 			isa = PBXGroup;
 			children = (
-				69BB147B253D448100D1F847 /* Landmarks */,
 				6910EE7C2534280A00F7BDCC /* SwiftUIStudyApp.swift */,
 				6910EE7E2534280A00F7BDCC /* ContentView.swift */,
 				6910EE902534298400F7BDCC /* RestaurantView.swift */,
@@ -83,16 +76,6 @@
 				6910EE832534281100F7BDCC /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
-			sourceTree = "<group>";
-		};
-		69BB147B253D448100D1F847 /* Landmarks */ = {
-			isa = PBXGroup;
-			children = (
-				69BB1486253D46BE00D1F847 /* ContentViewLandmarks.swift */,
-				69BB147F253D44F600D1F847 /* MapView.swift */,
-				69BB147C253D44AD00D1F847 /* CircleImage.swift */,
-			);
-			path = Landmarks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -164,14 +147,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				69BB1480253D44F600D1F847 /* MapView.swift in Sources */,
 				6910EE7F2534280A00F7BDCC /* ContentView.swift in Sources */,
-				69BB1487253D46BE00D1F847 /* ContentViewLandmarks.swift in Sources */,
 				6910EE7D2534280A00F7BDCC /* SwiftUIStudyApp.swift in Sources */,
 				6910EE8D2534283800F7BDCC /* ListView.swift in Sources */,
 				6910EE912534298400F7BDCC /* RestaurantView.swift in Sources */,
 				6987B501253525D900F579F0 /* TextView.swift in Sources */,
-				69BB147D253D44AD00D1F847 /* CircleImage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
