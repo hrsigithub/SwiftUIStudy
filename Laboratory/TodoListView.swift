@@ -7,7 +7,16 @@
 
 import SwiftUI
 
+
+// 端末幅
+private var screenWidth = UIScreen.main.bounds.width
+
+
 struct TodoListView: View {
+    
+    init() {
+        debugPrint("端末幅:", screenWidth)
+    }
     
     @State private var newItem: String = ""
     @State private var toDoList: [String] = ["買物", "洗濯"]
@@ -23,12 +32,17 @@ struct TodoListView: View {
             HStack {
                 TextField("新しい予定を入力してください。", text: $newItem)
                     .textFieldStyle(RoundedBorderTextFieldStyle())
-                    .frame(width: 250)
+                    .frame(width: screenWidth / 2)
+
                 
                 Button(action: {
                     // ボタン押下
                     self.toDoList.append(self.newItem)
                     self.newItem = ""
+                    
+                    // 保存
+                    UserDefaults.standard.set(self.toDoList, forKey: "toDoList")
+                    
                     
                 }) {
                     ZStack {
@@ -38,6 +52,8 @@ struct TodoListView: View {
                         Text("追加").foregroundColor(.white)
                     }
                 }
+                
+//                Spacer()
             }
 
             HStack {
@@ -51,6 +67,16 @@ struct TodoListView: View {
             }
             
             Spacer()
+        }.onAppear() {
+            // 画面が表示された場合に起動される。
+            debugPrint("onAppear")
+            
+            guard let w = UserDefaults.standard.array(forKey: "toDoList") as? [String]
+            else { return }
+            
+            self.toDoList = w
+            
+            
         }
     }
 }
