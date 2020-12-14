@@ -12,7 +12,8 @@ struct SwiftUIStudyApp: App {
     var body: some Scene {
         WindowGroup {
             //TextView()
-            SwiftUIView()
+           // SwiftUIView()
+            TopListView()
         }
     }
 }
