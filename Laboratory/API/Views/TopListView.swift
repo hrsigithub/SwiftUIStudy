@@ -9,12 +9,14 @@ import SwiftUI
 
 struct TopListView: View {
     
-    let eventsData: [Event] = mockEventsData
-    @ObservedObject var fetcher = StudyGroupEventFetcher()
+    //let eventsData: [Event] = mockEventsData
+    //@ObservedObject var fetcher = StudyGroupEventFetcher()
+    @ObservedObject var topListVM = TopListViewModel()
+    
     
     var body: some View {
         NavigationView {
-            List(fetcher.eventData) { event in
+            List(topListVM.eventData) { event in
                 NavigationLink(destination: Text("詳細")) {
                     EventRowView(eventData: event)
                 }

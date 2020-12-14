@@ -24,6 +24,7 @@
 		699B0E312586F2B3008BEE2D /* EventDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 699B0E302586F2B3008BEE2D /* EventDetailView.swift */; };
 		699B0E352586F343008BEE2D /* StudyGroupEventFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 699B0E342586F343008BEE2D /* StudyGroupEventFetcher.swift */; };
 		699B0E392586F3E5008BEE2D /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 699B0E382586F3E5008BEE2D /* Alamofire */; };
+		699B0E3F2587079F008BEE2D /* TopListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 699B0E3E2587079F008BEE2D /* TopListViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -45,6 +46,7 @@
 		699B0E292586EF2E008BEE2D /* EventRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventRowView.swift; sourceTree = "<group>"; };
 		699B0E302586F2B3008BEE2D /* EventDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventDetailView.swift; sourceTree = "<group>"; };
 		699B0E342586F343008BEE2D /* StudyGroupEventFetcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudyGroupEventFetcher.swift; sourceTree = "<group>"; };
+		699B0E3E2587079F008BEE2D /* TopListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopListViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +118,7 @@
 		699B0E282586EF0F008BEE2D /* API */ = {
 			isa = PBXGroup;
 			children = (
+				699B0E3D2587064F008BEE2D /* ViewModels */,
 				699B0E2D2586F0CD008BEE2D /* Views */,
 				699B0E0C2586EB87008BEE2D /* Mocks */,
 				699B0E0E2586EB87008BEE2D /* Models */,
@@ -132,6 +135,14 @@
 				699B0E252586EEB0008BEE2D /* TopListView.swift */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		699B0E3D2587064F008BEE2D /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				699B0E3E2587079F008BEE2D /* TopListViewModel.swift */,
+			);
+			path = ViewModels;
 			sourceTree = "<group>";
 		};
 		69BD9DA62580D00900810478 /* Laboratory */ = {
@@ -224,6 +235,7 @@
 			files = (
 				699B0E352586F343008BEE2D /* StudyGroupEventFetcher.swift in Sources */,
 				699B0E232586EE28008BEE2D /* mockEventsData.swift in Sources */,
+				699B0E3F2587079F008BEE2D /* TopListViewModel.swift in Sources */,
 				6910EE7F2534280A00F7BDCC /* ContentView.swift in Sources */,
 				699B0E202586ED99008BEE2D /* Event.swift in Sources */,
 				6910EE7D2534280A00F7BDCC /* SwiftUIStudyApp.swift in Sources */,
