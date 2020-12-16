@@ -13,6 +13,8 @@
 		6910EE842534281100F7BDCC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6910EE832534281100F7BDCC /* Preview Assets.xcassets */; };
 		6910EE8D2534283800F7BDCC /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6910EE8C2534283800F7BDCC /* ListView.swift */; };
 		6910EE912534298400F7BDCC /* RestaurantView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6910EE902534298400F7BDCC /* RestaurantView.swift */; };
+		697B05652589A00300D78256 /* TodoListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 697B05642589A00300D78256 /* TodoListView.swift */; };
+		697B05692589A17500D78256 /* AFRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 697B05682589A17500D78256 /* AFRequest.swift */; };
 		6987B501253525D900F579F0 /* TextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6987B500253525D900F579F0 /* TextView.swift */; };
 		699B0E132586EB87008BEE2D /* mockProduction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 699B0E0D2586EB87008BEE2D /* mockProduction.swift */; };
 		699B0E172586EB87008BEE2D /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 699B0E122586EB87008BEE2D /* SwiftUIView.swift */; };
@@ -36,6 +38,8 @@
 		6910EE852534281100F7BDCC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6910EE8C2534283800F7BDCC /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
 		6910EE902534298400F7BDCC /* RestaurantView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantView.swift; sourceTree = "<group>"; };
+		697B05642589A00300D78256 /* TodoListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TodoListView.swift; sourceTree = "<group>"; };
+		697B05682589A17500D78256 /* AFRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AFRequest.swift; sourceTree = "<group>"; };
 		6987B500253525D900F579F0 /* TextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextView.swift; sourceTree = "<group>"; };
 		699B0E0D2586EB87008BEE2D /* mockProduction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = mockProduction.swift; sourceTree = "<group>"; };
 		699B0E122586EB87008BEE2D /* SwiftUIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftUIView.swift; sourceTree = "<group>"; };
@@ -98,6 +102,14 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		697B05672589A10200D78256 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				697B05682589A17500D78256 /* AFRequest.swift */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
 		699B0E0C2586EB87008BEE2D /* Mocks */ = {
 			isa = PBXGroup;
 			children = (
@@ -118,6 +130,7 @@
 		699B0E282586EF0F008BEE2D /* API */ = {
 			isa = PBXGroup;
 			children = (
+				697B05672589A10200D78256 /* Utility */,
 				699B0E3D2587064F008BEE2D /* ViewModels */,
 				699B0E2D2586F0CD008BEE2D /* Views */,
 				699B0E0C2586EB87008BEE2D /* Mocks */,
@@ -148,6 +161,7 @@
 		69BD9DA62580D00900810478 /* Laboratory */ = {
 			isa = PBXGroup;
 			children = (
+				697B05642589A00300D78256 /* TodoListView.swift */,
 				699B0E0D2586EB87008BEE2D /* mockProduction.swift */,
 				699B0E282586EF0F008BEE2D /* API */,
 				6910EE8C2534283800F7BDCC /* ListView.swift */,
@@ -241,8 +255,10 @@
 				6910EE7D2534280A00F7BDCC /* SwiftUIStudyApp.swift in Sources */,
 				699B0E172586EB87008BEE2D /* SwiftUIView.swift in Sources */,
 				699B0E1D2586ED62008BEE2D /* StudyGroup.swift in Sources */,
+				697B05692589A17500D78256 /* AFRequest.swift in Sources */,
 				699B0E2A2586EF2E008BEE2D /* EventRowView.swift in Sources */,
 				6910EE8D2534283800F7BDCC /* ListView.swift in Sources */,
+				697B05652589A00300D78256 /* TodoListView.swift in Sources */,
 				6910EE912534298400F7BDCC /* RestaurantView.swift in Sources */,
 				699B0E312586F2B3008BEE2D /* EventDetailView.swift in Sources */,
 				699B0E132586EB87008BEE2D /* mockProduction.swift in Sources */,
