@@ -14,7 +14,7 @@ class TopListViewModel: ObservableObject {
     
     @Published var eventData: [Event] = []
 
-    var studyGroup: StudyGroup?
+    private var studyGroup = [StudyGroup]()
 
     init() {
 //        self.fetcher.fetchEventDataAF { (events) in
@@ -25,8 +25,6 @@ class TopListViewModel: ObservableObject {
             self.eventData = evData.events
         }
         
-        
-//        AF.request(url: "SS")
-        
+                
     }
 }
